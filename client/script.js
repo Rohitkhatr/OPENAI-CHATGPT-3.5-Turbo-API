@@ -75,7 +75,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from server
 
-  const response = await fetch("https://openai-chatgpt-3-5-turbo-api.onrender.com", {
+  const response = await fetch("http://localhost:8000", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
